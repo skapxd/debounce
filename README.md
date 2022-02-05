@@ -2,17 +2,21 @@
 
 **Debounce**
 
-    It takes care of ignoring the first functions that are called and executing the last time the function is called after a certain time
+It takes care of ignoring the first functions that are called and executing the last time the function is called after a certain time
 
-    Case of use
-    - Online search engine
+Case of use
+- Online search engine
 
+---
 **InverseDebounce**
 
-    It is in charge of executing the first time the function is called and ignores the calls of the other times that the same function is called
+It is in charge of executing the first time the function is called and ignores the calls of the other times that the same function is called
 
-    Case of use
-    - Loading data when reaching the end of a InfinityScroll
+Case of use
+- Loading data when reaching the end of a InfinityScroll
+
+---
+
 ## Vanilla Debounce - Live examples
   
 [![Edit @skapxd/debounce](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/skapxd-debounce-4ugtm?fontsize=14&hidenavigation=1&theme=dark)

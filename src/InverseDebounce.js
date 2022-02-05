@@ -13,14 +13,15 @@ export const InverseDebounce = (props) => {
 
   let counter = 0;
 
-  return async function ExecuteFN() {
+  /**@param {any} args */
+  return async function ExecuteFN(args) {
     counter += 1;
 
     if (counter !== 1) return;
 
     const listOfFn = [
       Delay(minimumDelay),
-      fn && (await fn()),
+      fn && (await fn(args)),
     ];
 
     await Promise.all(listOfFn);
