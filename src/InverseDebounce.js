@@ -1,4 +1,4 @@
-import { Delay } from "./Delay.js";
+import { Delay } from "./Delay";
 
 /**
  * @param {Object} props

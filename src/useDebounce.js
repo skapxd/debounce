@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { Debounce } from "./Debounce.js";
+import { Debounce } from "./Debounce";
 
 /**
  * @param {Object} props
