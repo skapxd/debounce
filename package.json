@@ -1,19 +1,27 @@
 {
     "name": "@skapxd/debounce",
     "repository": "skapxd/debounce",
-    "version": "1.0.10",
-    "type": "module",
+    "version": "1.0.12",
     "description": "package use to generate a debounce ease and fast from Vanilla or React",
-    "main": "src/index.js",
+    "main": "lib/index.js",
     "keywords": [
         "function",
         "throttle",
         "invoke",
         "debounce"
     ],
+    "scripts": {
+        "build": "babel src --out-dir lib"
+    },
     "author": "skapxd",
     "license": "MIT",
     "dependencies": {
+        "core-js": "^3.21.0",
         "react": "^17.0.2"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.17.0",
+        "@babel/core": "^7.17.0",
+        "@babel/preset-env": "^7.16.11"
     }
 }
