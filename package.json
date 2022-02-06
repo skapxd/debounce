@@ -5,7 +5,12 @@
     "type": "module",
     "description": "package use to generate a debounce ease and fast from Vanilla or React",
     "main": "src/index.js",
-    "keywords": [],
+    "keywords": [
+        "function",
+        "throttle",
+        "invoke",
+        "debounce"
+    ],
     "author": "skapxd",
     "license": "MIT",
     "dependencies": {
