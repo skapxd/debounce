@@ -1,7 +1,7 @@
 {
     "name": "@skapxd/debounce",
     "repository": "skapxd/debounce",
-    "version": "1.0.16",
+    "version": "1.0.17",
     "description": "package use to generate a debounce ease and fast from Vanilla or React",
     "main": "lib/index.js",
     "keywords": [
