@@ -3,7 +3,7 @@ import { InverseDebounce } from "./InverseDebounce";
 
 /**
  * @param {Object} props
- * @param {() => void} [props.fn]
+ * @param {(values: any) => void} [props.fn]
  * @param {any[]} [props.dependencies]
  * @param {number} [props.minimumDelay]
  */
